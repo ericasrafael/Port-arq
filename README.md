@@ -1,4 +1,13 @@
-## Portifólio
+## Portfólio
 Portifólio de uma arquiteta.
-## Tarefas
-Dentro do próprio GitHub.
+
+## tarefas
+
+Executadas dentro do próprio GitHub.
+
+## ícones
+
+:package: novas funcionalidades
+:up: atualização 
+:beatle: correção de bug
+:checkered_flag: release
