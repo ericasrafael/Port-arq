@@ -10,5 +10,5 @@ Executadas dentro do próprio GitHub.
 
  - :package: novas funcionalidades
  - :up: atualização 
- - :beatle: correção de bug
+ - :brain: correção de bug
  - :checkered_flag: release
