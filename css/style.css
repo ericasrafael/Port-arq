@@ -9,11 +9,14 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .hamburguer{
     width: 2rem;
     height: 2rem;
     position: fixed;
-    z-index: 100;
+    z-index: 500;
     right: 2rem;
     top: 2rem;
     display: flex;
@@ -152,6 +155,7 @@ header{
     color: #000;
 }
 .sidebar{
+    z-index: 150;
     width: 20rem;
     height: 100vh;
     background-color: #ffffff;
@@ -445,7 +449,7 @@ header{
 }
 .orcamento-wrapper{
     width: 60%;
-    height: 80%;
+    height: 55%;
     background-color: #9a847899;
     border-radius: 10px;
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
@@ -492,4 +496,46 @@ header{
     padding: 1rem;
     grid-column: 2;
     cursor: pointer;
+}
+footer{
+    width: 100%;
+    height: 7rem;
+    background-color: #17181b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content p{
+    font-family: "Josefin Slab", serif;
+    font-size: 1.2rem;
+    color: #a7a7a7a7;
+}
+.social-list a{
+    margin: 0 2rem;
+    color: #a7a7a7a7;
+    font-size: 2rem;
+}
+.social-list ul{
+    display: flex;
+}
+#link-topo{
+    font-size: 2rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    width: 4rem;
+    height: 4rem;
+    color:#ffffff;
+    background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  
+    background: linear-gradient(to right, #9a8478, #1e130c); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+    z-index: 600;
 }
