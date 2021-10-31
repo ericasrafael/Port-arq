@@ -1,10 +1,6 @@
 ## Portfólio 
 
-Portifólio de uma arquiteta.
-
-## tarefas
-
-Executadas dentro do próprio GitHub.
+Portifólio Arquitetura.
 
 ## ícones
 

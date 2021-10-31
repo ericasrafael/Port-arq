@@ -20,7 +20,7 @@ function atualizarPreco(){
   
     let preco = qtde * 200;
     if (qtde > 9) preco *= 0.75
-    if (incluiProjeto) preco += 500
+    if (incluiProjeto) preco += 200
     let taxaUrgencia = 1 - prazo*0.1;
     preco *= 1 + taxaUrgencia
    

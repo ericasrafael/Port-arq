@@ -182,13 +182,15 @@ header{
     font-size: 2rem;
     color: #1e130c;
     font-weight: 500;
-    transition: color 1s;
+    transition: all 1s;
 }
 .menu-link:hover{
     color: #9a8478;
+    border-bottom: 2px solid #1e130c;
 }
 .social-media{
     position: absolute;
+    top: 70%;
     bottom: 2rem;
     width: 100%;
     display: flex;
