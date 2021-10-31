@@ -232,10 +232,10 @@
             <div class="orcamento-wrapper">
                 <h1>Simule seu orçamento</h1>
                 <form>
-                    <label for="quantidade">Quantidade de imagens</label>
-                    <input type="number" min="1" name="quantidade" id="quantidade">
+                    <label for="qtde">Quantidade de imagens</label>
+                    <input type="number" min="1" name="qtde" id="qtde">
                     <label for="projeto">Preciso de um projeto</label>
-                    <input type="checkbox" name="js" id="js">
+                    <input type="checkbox" name="projeto" id="projeto">
                     <label>Projeto</label>
                     <div class="group-projeto">
                         <div>
@@ -247,7 +247,7 @@
                         </div>
                     </div>
                     <label for="prazo">Prazo</label>
-                    <input type="range" name="prazo" id="prazo">
+                    <input type="range" name="prazo" id="prazo" min="1" max="10">
                     <label id="preco">R$ 0,00</label>
                     <button class="botao botao-orcamento" type="submit">Enviar</button>
                 </form>
