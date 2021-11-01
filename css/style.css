@@ -251,6 +251,7 @@ header{
       background-color: #f5f5f5;
   }
   .sessao-header{
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -356,6 +357,9 @@ header{
     bottom: 2rem;
     opacity: 1;
     visibility: visible;
+}
+iframe{
+    border-radius: 1rem;
 }
 .sessao-contato{
     width: 100%;
