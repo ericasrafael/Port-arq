@@ -340,7 +340,6 @@ header{
 }
 .botao{
     background: #1e130c;  
-    background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  
     background: linear-gradient(to right, #9a8478, #1e130c); 
     color: #ffffff;
     font-family: "Baloo Da 2", serif;
@@ -551,14 +550,14 @@ footer{
 @media (min-width:320px) and (max-width:639px){
     .card-img-wrapper img {
         object-fit: cover;
-        height: 10rem;
-        width: 19rem;
+        height: 20rem;
+        width: 100%;
         border-radius: 1rem;
         transition: all .3s;
     } 
     iframe{
-        height: 10rem;
-        width: 19rem;
+        height: 18rem;
+        width: 30rem;
     }
     .banner h1 {
         color: #ffffff;
@@ -613,6 +612,36 @@ footer{
     .conhecimento-img-wrapper img {
         object-fit: cover;
         width: 10rem;
+    }
+    .projetos {
+        margin: auto;
+        width: 98%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3px;
+        justify-content: center;
+    }
+    .card-info {
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        padding: 0;
+        transition: all .3s;
+    }
+    .card-info p {
+        font-family: "Baloo Da 2", serif;
+        color: #1e130c;
+        text-shadow: 0.2rem 0.1rem rgb(226 223 223 / 90%);
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    .card:hover .card-info{
+        bottom: 0.9rem;
+        opacity: 1;
+        visibility: visible;
     }
     .sessao-contato {
         width: 100%;
@@ -674,8 +703,8 @@ footer{
         align-items: center;
     }
     .orcamento-wrapper {
-        width: 17em;
-        height: 40rem;
+        width: 88%;
+        height: 95%;
         background-color: #9a847899;
         border-radius: 10px;
         box-shadow: 0 0.1rem 0.3rem rgb(0 0 0 / 50%);
@@ -704,7 +733,7 @@ footer{
     }
     .sessao-orcamento input[type="number"] {
         font-family: "Baloo Da 2", serif;
-        width: 10rem;
+        width: 100%;
         height: 3rem;
         font-size: 2rem;
         outline: none;
@@ -714,6 +743,7 @@ footer{
         grid-column: 1;
     }
     .botao-orcamento {
+        width: 100%;
         text-transform: uppercase;
         padding: 1rem 2rem;
         grid-column: 2;
@@ -725,7 +755,7 @@ footer{
     #link-topo {
         font-size: 2rem;
         position: fixed;
-        right: 2rem;
+        right: 0.2rem;
         bottom: 8rem;
         width: 3rem;
         height: 3rem;
@@ -1052,7 +1082,7 @@ footer{
     }
     .orcamento-wrapper {
         width: 60%;
-        height: 75%;
+        height: 85%;
         background-color: #9a847899;
         border-radius: 10px;
         box-shadow: 0 0.1rem 0.3rem rgb(0 0 0 / 50%);
@@ -1087,7 +1117,7 @@ footer{
 @media (min-width: 2000px) and (max-width:3000px) {
     .orcamento-wrapper {
         width: 60%;
-        height: 80%;
+        height: 60%;
         background-color: #9a847899;
         border-radius: 10px;
         box-shadow: 0 0.1rem 0.3rem rgb(0 0 0 / 50%);
