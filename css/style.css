@@ -483,6 +483,9 @@ iframe{
     column-gap: 2rem;
     row-gap: 2rem;
 }
+#projeto{
+    margin-top: 1rem;
+}
 .sessao-orcamento label{
     font-family: "Baloo Da 2", serif;
     font-size: 1.5rem;
@@ -948,11 +951,10 @@ footer{
         position: relative;
     }
     .sessao-orcamento form {
-        margin: 4rem;
         display: grid;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
-        row-gap: 1rem;
+        row-gap: 0.3rem;
     }
     .conhecimentos {
         display: grid;
