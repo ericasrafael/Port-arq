@@ -693,7 +693,7 @@ footer{
     }
     .sessao-orcamento {
         width: 100%;
-        height: 46rem;
+        height: 80%;
         background: url(../img/SALA\ DE\ ESTAR_JANTAR_Cena13.effectsResult.png);
         background-position: left;
         background-repeat: no-repeat;
@@ -703,8 +703,8 @@ footer{
         align-items: center;
     }
     .orcamento-wrapper {
-        width: 88%;
-        height: 95%;
+        width: 100%;
+        height: 100%;
         background-color: #9a847899;
         border-radius: 10px;
         box-shadow: 0 0.1rem 0.3rem rgb(0 0 0 / 50%);
@@ -726,10 +726,12 @@ footer{
         text-align: center;
     }
     .sessao-orcamento form {
-        margin: 2rem;
-        display: inline-block;
-        text-align: center;
-        padding-top: 2rem;
+        margin: 0;
+        width: 100%;
+        padding: 2rem 1rem 1rem 1rem;
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: justify;
     }
     .sessao-orcamento input[type="number"] {
         font-family: "Baloo Da 2", serif;
@@ -740,7 +742,7 @@ footer{
         border-radius: 10px;
         border: none;
         padding: 0.3rem;
-        grid-column: 1;
+        grid-column: 2;
     }
     .botao-orcamento {
         width: 100%;
@@ -755,7 +757,7 @@ footer{
     #link-topo {
         font-size: 2rem;
         position: fixed;
-        right: 0.2rem;
+        right: 1.2rem;
         bottom: 8rem;
         width: 3rem;
         height: 3rem;
