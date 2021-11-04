@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    overflow-x: hidden;
     text-decoration: none;
     box-sizing: border-box;
 }
@@ -757,7 +758,7 @@ footer{
     #link-topo {
         font-size: 2rem;
         position: fixed;
-        right: 1.2rem;
+        right: 0.2rem;
         bottom: 8rem;
         width: 3rem;
         height: 3rem;
