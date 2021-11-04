@@ -556,8 +556,8 @@ footer{
         transition: all .3s;
     } 
     iframe{
-        height: 18rem;
-        width: 30rem;
+        height: 10rem;
+        width: 100%;
     }
     .banner h1 {
         color: #ffffff;
@@ -645,8 +645,8 @@ footer{
     }
     .sessao-contato {
         width: 100%;
-        height: 45vh;
-        background-color: #ffffff;
+        height: 55vh;
+        background-color: #eee;
         display: flex;
         align-items: center;
         justify-content: center;
